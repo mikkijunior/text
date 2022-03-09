@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(108, 189, 33);
+    font-family: 'Dancing Script', cursive;
+    font-family: 'PT Sans', sans-serif;
+}
+.card {
+    display: flex;
+    background-color: rgb(201, 173, 47);
+    border: 3px  solid rgb(119, 116, 116);
+    border-radius: 20px;
+}
+.card img {
+    border-radius: 20px 0 0 20px;
+}
+.card button { 
+    border-radius: 0 20px 20px 0;
+    font-size: 24px;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(158, 127, 127);
+    color: rgb(37, 9, 9);
+    border: 0px;
+}
+.card p {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: azure;
+}
